@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    background: #F73700;
+}
+
+.header-container,
+.footer-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container > nav > ul,
+.footer-container > nav > ul {
+    display: flex;
+}
+
+.header-container > nav > ul > li,
+.footer-container > nav > ul > li {
+    color: #ffffff;
+    padding: 20px;
+}
+
+#search {
+    width: 300px;
+    height: 30px;
+    outline: unset;
+    border: unset;
+}
+
+.form-container:after {
+    content: '\f002';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    position: absolute;
+    color: #ffffff;
+    background: #B6AFAF;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+    padding-top: 6px;
+}
+
+.header-container p {
+    color: #ffffff;
+}
+
+.fas.fa-user {
+    padding-right: 20px;
+}
+
+main,
+footer {
+    background: #F0E4E4;
+
+}
+
+.rooms {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.room {
+    flex-basis: 20%;
+    text-align: center;
+    color: gray;
+}
+
+.collections {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.collections-content-title {
+    color: #F73700;
+    font-size: 32px;
+    padding-top: 50px;
+}
+
+.collections-content-description {
+    color: gray;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.collections-content-btn {
+    border: unset;
+    background: #F73700;
+    color: #ffffff;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px 30px;
+}
+
+.collections-image-wrapper {
+    flex-basis: 65%;
+}
+
+.collections-image-wrapper img {
+    vertical-align: middle;
+}
+
+.offers {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #CAC3C3;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.offer {
+    text-align: center;
+    padding: 50px;
+}
+
+.offer img {
+    width: 120px;
+    border-radius: 50%;
+    background: #F0E4E4;
+    padding: 20px;
+}
+
+.offer h3 {
+    padding: 10px 0;
+}
+
+.offer h5 {
+    color: gray;
+}
+
+.footer-container {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-container > nav > ul > li {
+    color: gray;
+}
+
+.footer-container > nav > ul > li:first-child {
+    font-weight: bolder;
+}
+
+.footer-container > nav > ul > li > button {
+    color: gray;
+    background: #CAC3C3;
+    border: unset;
+    padding: 10px 60px;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 4px;
+}
+
+.footer-container > nav > ul > li > i {
+    font-size: 26px;
+}
+
+.footer-container > nav:nth-child(2) > ul > li:nth-child(4),
+.footer-container > nav:nth-child(2) > ul > li:nth-child(5),
+.footer-container > nav:nth-child(2) > ul > li:nth-child(6),
+.footer-container > nav:nth-child(2) > ul > li:nth-child(7) {
+    padding: 20px 5px;
+}
+
+.footer-container > nav:nth-child(2) > ul > li:last-child {
+    padding: 20px 20px 20px 5px;
+}
